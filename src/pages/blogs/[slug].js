@@ -53,7 +53,7 @@ export async function getStaticProps({ params }) {
     }
 }
 export async function getStaticPaths() {
-    const res = await fetch('http://localhost:3000/api/blogs/archives')
+    const res = await fetch('/api/blogs/archives')
     const posts = await res.json();
     const paths = posts.map((post) => ({ params: { slug: post.slug } })
     )
