@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    
+    background :#f7f7f7b0;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    gap: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    align-content :baseline;
+    box-shadow: 1px 3px 2px #63636350;
+}
+.header h1{
+    position: relative;
+    align-content: space-around;
+    padding: 0 3rem;
+}
+.header ul{
+    position: relative;
+    list-style: none;
+    padding: 1rem 4rem;
+    display: flex;
+    gap: 1rem;
+    justify-self: end;
+    align-content: space-around;
+
+  }
+
+    .header a{
+        text-decoration: none;
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 4px 8px;
+        background-color: #bdbdbd44;
+        color: black;
+        font-weight: 500;
+    }

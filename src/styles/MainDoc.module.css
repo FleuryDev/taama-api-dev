@@ -1,0 +1,10 @@
+.main{
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 5rem;
+    background: transparent;
+}

@@ -1,0 +1,51 @@
+.form_container, .form, .form_row{
+    display: flex;
+    width: max-content;
+    flex-wrap: wrap;
+    color: rgb(29, 29, 29);
+
+}
+.form_container{
+    width: 80%;
+    min-width: 300px;
+    place-self: cen;
+    max-width: 900px;
+    padding: 1rem ;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    place-self: center;
+    margin-top: 3rem;
+    border: 1px solid #dadada;
+    box-shadow: .1rem  .2rem #acacacb4;
+}
+.form{
+    width: 100%;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.form_row{
+    width: 100%;
+
+}
+.form_row input, .form_row label{
+    flex:content;
+    padding: .5rem 1rem;
+}
+.form_row input{
+    outline-width: .4rem;
+    outline-color: rgba(197, 197, 197, 0.664);
+    outline-offset: .1rem;
+    
+}
+.msg{
+    width: 100%;
+    padding: .5rem 1rem;
+    font-weight:600 ;
+    margin-top: 1rem;
+}
+.msg a{
+     background-color: rgba(156, 156, 156, 0.753);
+     padding: .5rem 1rem;
+}
