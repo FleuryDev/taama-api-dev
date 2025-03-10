@@ -39,7 +39,7 @@ export default function Single(params) {
 export async function getStaticProps({ params }) {
     const { slug } = params
 
-    const res = await fetch(`http://localhost:3000/api/blogs/post?slug=${slug}`)
+    const res = await fetch(`/api/blogs/post?slug=${slug}`)
     // const res = await fetch(`http://localhost:3000/api/blogs/post`)
     const post = await res.json();
 
